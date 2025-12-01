@@ -1,0 +1,24 @@
+package gr.aueb.cf.cf9.ch5;
+/*
+Ορίζουμε μια μεθοδο void swap η οποία θα ανταλάσει αμιβαία τις δύο τιμές
+ */
+public class SwapApp {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+        System.out.printf("a = %d, b = %d\n", a, b);
+        swap(a, b);
+
+
+        System.out.printf("a = %d, b = %d\n", a, b);
+    }
+
+    public static void swap(int a, int b) {
+        int temp = 0;
+        a = b;
+        b = temp;
+
+
+    }
+}
